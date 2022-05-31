@@ -4,12 +4,12 @@
  */
 package test;
 
-import java.util.List;
-
+import core.Coord;
 import junit.framework.TestCase;
 import movement.map.DijkstraPathFinder;
 import movement.map.MapNode;
-import core.Coord;
+
+import java.util.List;
 
 public class DijkstraPathFinderTest extends TestCase {
 	private DijkstraPathFinder r;
